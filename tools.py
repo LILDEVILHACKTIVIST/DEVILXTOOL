@@ -1,0 +1,75 @@
+#!/usr/bin/python3
+import os
+import time
+os.system("clear")
+os.system("pkg install sl -y")
+os.system("clear")
+os.system("sl")
+time.sleep(1)
+os.system("clear")
+
+print("olá bem-vindo ao...")
+time.sleep(2)
+os.system("cat batata.txt")
+time.sleep(2)
+
+print("\n")
+print("1-atualizar termux")
+print("2-instalar nmap")
+print("3-instalar sql-injection")
+print("4-puxar dados")
+print("5-como puxar dados")
+print("6-como usar sql injection")
+print("7-como usar o nmap")
+print("\n")
+print("pressione enter para sair")
+escolha = False
+while escolha == False:
+    print("\n")
+    nivel = int(input("qual opção?"))
+    if (nivel == 1):
+        os.system("apt update -y && apt upgrade -y")
+        time.sleep(1)
+        os.system("clear")
+        os.system("cat batata.txt")
+        time.sleep(1)
+        os.system("cat banner.txt")
+    elif (nivel == 2):
+        os.system("pkg install nmap -y")
+        time.sleep(1)
+        os.system("clear")
+        os.system("cat batata.txt")
+        time.sleep(1)
+        os.system("cat banner.txt")
+    elif (nivel == 3):
+        os.system("git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev")
+        time.sleep(1)
+        os.system("clear")
+        os.system("cat batata.txt")
+        time.sleep(1)
+        os.system("cat banner.txt")
+    elif (nivel == 4):
+        os.system("git clone https://github.com/Kratosy/Puxar-Dados-Termux")
+        time.sleep(1)
+        os.system("clear")
+        os.system("cat batata.txt")
+        time.sleep(1)
+        os.system("cat banner.txt")
+    elif (nivel == 5):
+        os.system("cat puxar-dados.txt")
+        time.sleep(3)
+        os.system("cat batata.txt")
+        time.sleep(1)
+        os.system("cat banner.txt")
+    elif (nivel == 6):
+        os.system("cat sql-tuto.txt")
+        time.sleep(3)
+        os.system("cat batata.txt")
+        time.sleep(1)
+        os.system("cat banner.txt")
+    elif (nivel == 7):
+        os.system("cat nmap-tuto.txt")
+        time.sleep(3)
+        os.system("cat batata.txt")
+        time.sleep(1)
+        os.system("cat banner.txt")

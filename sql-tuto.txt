@@ -1,0 +1,3 @@
+abaixo,você verá uma video-aula bem explicativa de como se usar o sqlInjection para invadir sites
+(coloque no google) Link:
+https://youtu.be/PJ_ovUGFfY8

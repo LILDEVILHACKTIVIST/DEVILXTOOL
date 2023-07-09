@@ -1,0 +1,6 @@
+
+[+] Instalação: Para instalar no seu Termux, siga os comandos:
+(primeiro saia do meu script dando um "enter")
+ cd snuking 
+ python install.py 
+ python consulta.py

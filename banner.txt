@@ -1,0 +1,9 @@
+
+1-atualizar termux
+2-instalar nmap
+3-instalar sql-injection
+4-puxar dados
+5-como puxar dados
+6-como usar sql injection
+7-como usar o nmap
+pressione enter para sair
